@@ -18,7 +18,7 @@
     - name: Install NodeJs
       uses: actions/setup-node@v2-beta
       with:
-        node-version: '16'
+        node-version: 16
     
     - name: Install Surge
       run: npm install -g surge
